@@ -1,0 +1,131 @@
+body
+{
+	font-size: 12px;
+	background-color: #fff;
+	color: #999;
+}
+
+body.nightMode{
+	background-color: #222222;
+	color: #999;
+}
+
+a.deck:hover {
+  text-decoration: none;
+  color: #6993D2;
+  font-weight: bold;
+}
+
+
+tr{
+	color: #333;
+	font-size: 28px;
+	border: 1px solid;
+	/* background-color: #555; */
+	vertical-align: bottom;
+	vertical-align: text-bottom;
+	/* line-height: 1em; */
+	white-space:nowrap; 
+}
+
+.nightMode tr{
+		color: #fff;
+}
+
+tr td{
+	line-height: 0.2em;
+	vertical-align: ;
+}
+
+tr.deck td:first-child:before{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -5px;
+	margin-right: -11px;
+	height: 1em;
+	width: 1em;
+	content: url("/_addons/1210908941/user_files/gear/cards-black.svg");
+}
+
+.nightMode tr.deck td:first-child:before{
+	content: url("/_addons/1210908941/user_files/gear/cards-white.svg");
+}
+
+tr.deck td {
+  font-size: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.decktd {
+  min-width: 14em;
+}
+
+.count {
+  min-width: 3em;
+  text-align: right;
+}
+
+.collapse{
+	width: 1.2em;
+}
+
+.optscol {
+  width: 36px;
+}
+
+.gears{
+	padding-top: 0px;
+	margin-right: -10px;
+}
+
+.nightMode .gears{
+	opacity: 1;
+}
+
+.gears:hover{
+	background-color: #dcdcdc;
+	border-radius: 0.6em;
+	cursor: pointer;
+}
+
+.nightMode .gears:hover{
+	background-color: #555;
+	border-radius: 0.6em;
+	cursor: pointer;
+}
+
+.filtered {
+  color: #4498AA !important;
+}
+
+.nightMode .filtered {
+  color: #4498AA !important;
+}
+
+/* Color of count number */
+.review-count {
+  color: #74CC9C;
+}
+
+.new-count {
+  color: #4891E9;
+}
+.learn-count {
+  color: #EAA875;
+}
+.zero-count {
+  color: #ccc;
+}
+.nightMode .review-count {
+  color: #44A958;
+}
+.nightMode .new-count {
+	color: #77ccff;
+}
+.nightMode .learn-count {
+  color: #FF935B;
+}
+.nightMode .zero-count {
+  color: #777;
+

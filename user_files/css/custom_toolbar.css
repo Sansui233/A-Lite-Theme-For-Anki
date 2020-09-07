@@ -1,0 +1,35 @@
+#header {
+  padding-top: 3px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  border-bottom: 0;
+}
+
+.tdcenter{
+  white-space: nowrap;
+}
+
+.hitem{
+  margin: -6px;
+  background-color: #fff;
+  color: #333;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 7px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.nightMode .hitem{
+  background-color: #4c4c4c;
+}
+
+.nightMode .hitem{
+  padding: 12px,3px,12px,12px;
+
+}
+.hitem:hover {
+  color: #6993D2;
+  font-size: 1.2em;
+}

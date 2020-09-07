@@ -1,0 +1,24 @@
+.review-count {
+  color: #74CC9C;
+}
+
+.new-count {
+  color: #4891E9;
+}
+.learn-count {
+  color: #EAA875;
+}
+.zero-count {
+  color: #ccc;
+}
+.nightMode .review-count {
+  color: #5CcC00;
+}
+.nightMode .new-count {
+  color: #77ccff;
+}
+.nightMode .learn-count {
+  color: #FF935B;
+}
+.nightMode .zero-count {
+  color: #777;
