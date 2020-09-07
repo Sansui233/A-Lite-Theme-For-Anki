@@ -1,6 +1,6 @@
 # A Lite Theme for Anki
 
-I'm working on partial CSS to change the appearance of anki. This project is based on [Custom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon).
+I'm working on partial CSS to change the appearance of Anki. This project is based on [Custom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon).
 
 ![light](media/light.png)
 
@@ -34,7 +34,8 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 
 ## To Solve
 
-- [ ] Fix box size issues while hovering
+- [x] ~~Fix box size issues while hovering~~  
+(Thanks to @jasonesiegel)
 
 ## Hard to solve
 
@@ -43,7 +44,7 @@ Due to the limitation of css, here're something hard to solve
 - [x] ~~In deckbrowse, the `th` element's vertical start position.~~
 - [x] ~~In deckbrowse, the whitespace after `th` element .~~
 - [ ] I can't make cards icon follow decktree. Because source code makes indent by adding &nbsp.
-- [ ] In toolbar, I can't fix width of each `hitem` ,though it's inline-block.
+- [x] ~~In toolbar, I can't fix width of each `hitem` ,though it's inline-block.~~(No need)
 - [ ] In toolbar, the icon after `sync` is invisible but still takes up a place.
 - [ ] In toolbar, I can't replace text with icons.
 - [ ] Overall font
