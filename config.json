@@ -1,0 +1,15 @@
+{
+    "Image name for background": "",   
+    "Image name for gear": "more.svg",
+    "Keyboard Shortcut": "Ctrl+Shift+b",
+    "Reviewer image": false,
+    "Toolbar image": false,
+    "Toolbar top/bottom": false,
+    "background-attachment": "fixed",
+    "background-color bottom": "",
+    "background-color main": "",
+    "background-color top": "",
+    "background-position": "center",
+    "background-repeat": "no-repeat",
+    "background-size": "cover"
+} 

@@ -23,7 +23,9 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 
    **The compatibility is based on the dependency. Please check.**
 
-2. merge user-files into add-on's folder.
+2. Merge user-files into add-on's folder.
+
+3. Replace config.json in add-on's folder.
 
 ## Todo
 
