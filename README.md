@@ -19,9 +19,9 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 
 ## Install
 
-1. Install Dependency: [Cumstom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon)
+1. Install Dependency: [Custom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon)
 
-   **The compability is based on the dependency. Please check.**
+   **The compatibility is based on the dependency. Please check.**
 
 2. merge user-files into add-on's folder.
 
@@ -32,7 +32,7 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 
 ## Hard to solve
 
-Due to the limitation of css, here's something hard to solve
+Due to the limitation of css, here're something hard to solve
 
 - [x] ~~In deckbrowse, the `th` element's vertical start position.~~
 - [x] ~~In deckbrowse, the whitespace after `th` element .~~
