@@ -16,15 +16,12 @@ a.deck:hover {
   font-weight: bold;
 }
 
-
 tr{
 	color: #333;
 	font-size: 28px;
 	border: 1px solid;
-	/* background-color: #555; */
 	vertical-align: bottom;
 	vertical-align: text-bottom;
-	/* line-height: 1em; */
 	white-space:nowrap; 
 }
 
@@ -32,9 +29,12 @@ tr{
 		color: #fff;
 }
 
-tr td{
-	line-height: 0.2em;
-	vertical-align: ;
+tr th{
+	padding-top: 20px;
+}
+
+.top-level-drag-row{
+	line-height: 0.1em;
 }
 
 tr.deck td:first-child:before{
