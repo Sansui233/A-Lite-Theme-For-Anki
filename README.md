@@ -44,7 +44,7 @@ Due to the limitation of css, here're something hard to solve
 - [x] ~~In deckbrowse, the `th` element's vertical start position.~~
 - [x] ~~In deckbrowse, the whitespace after `th` element .~~
 - [ ] I can't make cards icon follow decktree. Because source code makes indent by adding &nbsp.
-- [x] ~~In toolbar, I can't fix width of each `hitem` ,though it's inline-block.~~(No need)
+- [x] ~~In toolbar, I can't fix width of each `hitem` ,though it's inline-block.~~(Not neccessary)
 - [ ] In toolbar, the icon after `sync` is invisible but still takes up a place.
 - [ ] In toolbar, I can't replace text with icons.
 - [ ] Overall font
