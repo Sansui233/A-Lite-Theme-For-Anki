@@ -1,6 +1,6 @@
 # A Lite Theme for Anki
 
-I'm working on partial CSS to change the appearance of anki. This project is based on [Cumstom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon).
+I'm working on partial CSS to change the appearance of anki. This project is based on [Custom Background](https://github.com/AnKingMed/Custom-background-image-and-gear-icon).
 
 ![light](media/light.png)
 
@@ -35,7 +35,7 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 Due to the limitation of css, here's something hard to solve
 
 - [ ] In deckbrowse, the `tr` element's vertical start position.
-- [ ] In deckbrowse, the whitespace after `tr` element's .Because the source code use <br> in `tr` to makes a extra line.
+- [ ] In deckbrowse, the whitespace after `tr` element .Because the source code use `<br>` in `tr` to makes a extra line.
 - [ ] I can't make cards icon follow decktree. Because source code makes indent by adding &nbsp.
 - [ ] In toolbar, I can't fix width of each `hitem` ,though it's inline-block.
 - [ ] In toolbar, the icon after `sync` is invisible but still takes up a place.
