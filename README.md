@@ -32,6 +32,10 @@ I'm working on partial CSS to change the appearance of anki. This project is bas
 - [ ] Button Appearance
 - [ ] Learning start page
 
+## To Solve
+
+- [ ] Fix box size issues while hovering
+
 ## Hard to solve
 
 Due to the limitation of css, here're something hard to solve
