@@ -4,16 +4,24 @@ body
 	background-color: #fff;
 	color: #999;
 }
-
 body.nightMode{
 	background-color: #222222;
 	color: #999;
 }
-
 a.deck:hover {
   text-decoration: none;
   color: #6993D2;
-  /*font-weight: bold;*/
+  font-weight: bold;
+}
+
+/* FixText-Sizing Issue */
+a.deck::before{
+	  display: block;
+    content: attr(aria-label);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 tr{
@@ -24,19 +32,15 @@ tr{
 	vertical-align: text-bottom;
 	white-space:nowrap; 
 }
-
 .nightMode tr{
 		color: #fff;
 }
-
 tr th{
 	padding-top: 20px;
 }
-
 .top-level-drag-row{
 	line-height: 0.1em;
 }
-
 tr.deck td:first-child:before{
 	display: inline-block;
 	vertical-align: middle;
@@ -46,11 +50,9 @@ tr.deck td:first-child:before{
 	width: 1em;
 	content: url("/_addons/1210908941/user_files/gear/cards-black.svg");
 }
-
 .nightMode tr.deck td:first-child:before{
 	content: url("/_addons/1210908941/user_files/gear/cards-white.svg");
 }
-
 tr.deck td {
   font-size: 15px;
   padding-top: 6px;

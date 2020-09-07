@@ -4,18 +4,17 @@
   font-weight: bold;
   border-bottom: 0;
 }
-
 .tdcenter{
   white-space: nowrap;
 }
-
 .hitem{
+  display: inline-block;
   margin: -6px;
   background-color: #fff;
   color: #333;
   padding-left: 18px;
   padding-right: 18px;
-  padding-top: 18px;
+  padding-top: 7px;
   padding-bottom: 7px;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -25,11 +24,15 @@
   background-color: #4c4c4c;
 }
 
-.nightMode .hitem{
-  padding: 12px,3px,12px,12px;
-
-}
 .hitem:hover {
   color: #6993D2;
-  /*font-size: 1.2em;*/
+}
+/* Fix text-sizing issue */
+.hitem::before {
+    display: block;
+    content: attr(aria-label);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
